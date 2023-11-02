@@ -1,8 +1,5 @@
-body {
-  background-color: lightblue;
-}
-
-h1 {
-  color: navy;
-  margin-left: 20px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
