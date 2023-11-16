@@ -25,6 +25,6 @@ Our fitness website aims to provide a comprehensive platform for users to access
 
 ## Technologies Used
 
-- **Frontend:** HTML5, CSS, JavaScript
+- **Frontend:** HTML5, CSS3, JavaScript
 
 - **Version Control:** Git, GitHub
