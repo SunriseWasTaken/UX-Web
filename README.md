@@ -6,10 +6,6 @@ Welcome to our fitness website project repository! This project is developed as 
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -23,26 +19,12 @@ Our fitness website aims to provide a comprehensive platform for users to access
 
 - **Nutrition Guide:** Explore a nutrition guide with tips, recipes, and meal plans to complement your fitness routine.
 
-- **Community Forum:** Engage with other users, ask questions, and share your fitness experiences.
-
 - **Activity Tracker:** Log and track your workouts, monitor your activity levels, and view progress over time.
 
 - **Responsive Design:** Enjoy a seamless experience across various devices, ensuring accessibility for all users.
 
 ## Technologies Used
 
-- **Frontend:** HTML5, CSS3, JavaScript, React.js
-
-- **Backend:** Node.js, Express.js, MongoDB
-
-- **Authentication:** JSON Web Tokens (JWT)
+- **Frontend:** HTML5, CSS, JavaScript
 
 - **Version Control:** Git, GitHub
-
-- **Deployment:** Heroku
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/fitness-website.git
