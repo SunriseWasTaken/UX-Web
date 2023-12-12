@@ -15,11 +15,7 @@ Our fitness website aims to provide a comprehensive platform for users to access
 
 - **Workout Library:** Access a diverse range of workout routines for different fitness levels and goals.
 
-- **User Profiles:** Create personalized profiles to track your fitness progress, set goals, and share achievements.
-
 - **Nutrition Guide:** Explore a nutrition guide with tips, recipes, and meal plans to complement your fitness routine.
-
-- **Activity Tracker:** Log and track your workouts, monitor your activity levels, and view progress over time.
 
 - **Responsive Design:** Enjoy a seamless experience across various devices, ensuring accessibility for all users.
 
