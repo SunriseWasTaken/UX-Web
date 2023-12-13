@@ -22,7 +22,7 @@
     <nav>
         <div class="nav__logo">
 
-            <a href="#"><img src="assets/logo.png" alt="logo"></a>
+            <a href="#"><img src="assets/logo.png" alt="FitnessForte logo"></a>
 
         </div>
 
@@ -45,14 +45,14 @@
             <span class="bg__blur"></span>
             <span class="bg__blur header__blur"></span>
 
-            <h4>LOREM IPSUM</h4>
+            <h4>DEFINE YOUR FITNESS</h4>
 
             <h1><span>MAKE </span>YOUR BODY SHAPE</h1>
 
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, quia nobis perferendis, magni
-                necessitatibus inventore exercitationem earum in eum eius non voluptatibus doloribus quaerat optio sunt
-                qui! Error, repudiandae dicta.
+                Embark on a journey to define your ideal body shape with our
+                tailored fitness plans. A vast library of targeted exercises and
+                dynamic routines, helping you achieve healthy lasting results.
             </p>
 
             <button class="btn">Get Started</button>
@@ -64,7 +64,7 @@
 
     </header>
 
-    <section class="workouts" data-section>
+    <section class="section__container workouts__container" data-section>
         <div class="container">
 
             <ul class="grid__list">
@@ -81,8 +81,8 @@
                         </h3 class="h3">
 
                         <p class="card__text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Illum rem nam enim quaerat placeat
+                            Sculpt your body with our transformative upper body
+                            workouts and unlock your full potential.
                         </p>
 
                         <a href="#" class="btn btn__secondary">
@@ -105,8 +105,9 @@
                         </h3 class="h3">
 
                         <p class="card__text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Illum rem nam enim quaerat placeat
+                            Designed to strengthen muscles and elevate your
+                            fitness experience. Diverse range of workouts
+                            uploaded every day!
                         </p>
 
                         <a href="#" class="btn btn-secondary">
@@ -129,8 +130,9 @@
                         </h3 class="h3">
 
                         <p class="card__text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Illum rem nam enim quaerat placeat
+                            Boost flexibility and prevent injuries with our
+                            effective stretching routines before starting our
+                            workouts.
                         </p>
 
                         <a href="#" class="btn btn__secondary">
@@ -150,34 +152,40 @@
             <img src="assets/about2.jpg" alt="nutrition">
         </div>
         <div class="nutrition__content">
-            <h2 class="section__header">Nutrition</h2>
+            <h2 class="section__header">Nutrition
+                <ion-icon name="leaf"></ion-icon>
+            </h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptate facere tenetur magnam similique sit, architecto
-                repellendus aut eligendi totam consequatur illo? Quasi modi,
-                exercitationem ex pariatur aspernatur perferendis nulla earum!
+                Fuelling your body with a well-rounded diet and eating balanced
+                meals that provide ample nutrition is important for maximising
+                your fitness potential. Making sure to include lean proteins,
+                whole grains and lots of nutritious fruit and veg. If you want
+                to see results, maintaining a consistent diet is very important,
+                especially when following our fitness routines. We post daily
+                nourishing meal plans that you can follow for quick and easy
+                dinners.
             </p>
             <button class="btn">Learn More</button>
         </div>
     </section>
 
-    <section class="section video" aria-label="video" data-section>
+    <section class="section__container video_container" data-section>
         <div class="container">
+            <div class="video-card" id="videoCard">
+                <video width="900px" height="500px" id="fitnessVideo" poster="./assets/video_banner2.jpg" controls>
+                    <source src="assets/deadlift_tut.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
 
-            <div class="video-card has-before has-bg-image" style="background-image: url('./assets/video_banner2.jpg')">
-
-                <h2 class="h2 card-title">Explore Fitness Life</h2>
-
-                <button class="play-btn" aria-label="play video">
+                <button class="play-btn" id="playButton" aria-label="play video">
                     <ion-icon name="play" aria-hidden="true"></ion-icon>
                 </button>
 
                 <a href="#" class="btn-link has-before">Watch More</a>
-
             </div>
-
         </div>
     </section>
+
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
