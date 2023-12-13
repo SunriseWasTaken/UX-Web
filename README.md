@@ -11,7 +11,7 @@ Welcome to our fitness website project repository! This project is developed as 
 
 Our fitness website aims to provide a comprehensive platform for users to access fitness resources, track their workouts, and stay motivated on their fitness journey. Whether you're a beginner looking for workout routines or an experienced fitness enthusiast, our website has something for everyone.
 
-[FitnessForte](#https://sunrisewastaken.github.io/UX-Web/)
+[FitnessForte](https://sunrisewastaken.github.io/UX-Web/)
 
 ## Features
 
