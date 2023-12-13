@@ -58,7 +58,7 @@
     outline: none;
     border: none;
     font-size: 1rem;
-    color: var(--white);
+    color: white;
     background-color: var(--secondary-color);
     border-radius: 5px;
     cursor: pointer;
@@ -301,7 +301,6 @@ nav {
     opacity: 1;
 }
 
-
 .card .h3 {
     font-size: 1.5rem;
     color: black;
@@ -350,12 +349,12 @@ nav {
     position: absolute;
     right: 0;
     top: 0;
-    max-width: 800px;
+    max-width: 1200px;
     border-radius: 5px;
 }
 
 .nutrition__content {
-    padding: 2rem 0;
+    padding: 0.5rem;
 }
 
 .nutrition__content .section__header {
@@ -364,7 +363,7 @@ nav {
 }
 
 .nutrition__content p {
-    margin-bottom: 4rem;
+    margin-bottom: 1.2rem;
     color: var(--text-dark);
 }
 
@@ -379,6 +378,7 @@ nav {
     background-color: var(--white);
     background-size: cover;
     background-position: center;
+    width: var(--max-width);
     height: 550px;
     border-radius: 20px;
     display: flex;
@@ -404,7 +404,18 @@ nav {
     font-size: 2.5rem;
 }
 
+#fitnessVideo {
+    border-radius: 20px;
+    outline: 2px solid var(--secondary-color);
+    margin-left: -80px;
+    object-fit: cover;
+}
+
 .play-btn {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: var(--secondary-color);
     color: var(--white);
     width: max-content;
@@ -413,7 +424,12 @@ nav {
     border-radius: 50%;
     margin-block: 25px 35px;
     animation: pulse 2s ease infinite;
+    z-index: 1;
 }
+
+
+/* Rest of your existing styles */
+
 
 @keyframes pulse {
     0% {
