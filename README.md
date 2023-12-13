@@ -1,4 +1,4 @@
-# Fitness Website UX Project
+# Website UX Project
 
 Welcome to our fitness website project repository! This project is developed as part of our university coursework to create a dynamic and engaging platform focused on promoting fitness and well-being.
 
