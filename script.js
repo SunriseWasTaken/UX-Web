@@ -33,3 +33,21 @@ const reveal = function () {
 
 reveal();
 addEventOnElem(window, "scroll", reveal);
+
+document.addEventListener("DOMContentLoaded", function () {
+  const playButton = document.getElementById("playButton");
+  const videoCard = document.getElementById("videoCard");
+  const fitnessVideo = document.getElementById("fitnessVideo");
+
+  playButton.addEventListener("click", function () {
+    if (fitnessVideo.paused) {
+      fitnessVideo.style.display = "block";
+      fitnessVideo.play();
+    } else {
+      fitnessVideo.pause();
+    }
+
+    playButton.style.display = "none";
+  });
+});
+
