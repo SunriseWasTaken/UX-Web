@@ -407,7 +407,7 @@ nav {
 #fitnessVideo {
     border-radius: 20px;
     outline: 2px solid var(--secondary-color);
-    margin-left: -80px;
+    margin-left: -70px;
     object-fit: cover;
 }
 
