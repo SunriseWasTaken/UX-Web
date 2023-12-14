@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@5.5.2/dist/css/ionicons.min.css"
+        integrity="sha384-+HnVtBRNEKlsOWA+gxp8F4bi7Yb7V4advn3T3IX/44Qlop2RqJ8xxNyJqTl6U8ZyK" crossorigin="anonymous">
+
+    <title>HowToFitness</title>
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav__logo">
+
+            <a href="/index-home.html"><img src="/assets/logo.png" alt="HowToFitness logo"></a>
+
+        </div>
+
+        <ul class="nav__links">
+            <li class="link"><a href="/index-home.html">Home</a></li>
+            <li class="link"><a href="#workouts">Workouts</a></li>
+            <li class="link"><a href="#nutrition">Nutrition</a></li>
+            <li class="link"><a href="#video">Videos</a></li>
+            <li class="link"><a href="#about">About</a></li>
+        </ul>
+
+        <a href="/index-home.html"><button class="btn">Join Now</button></a>
+
+    </nav>
+
+    <div class="bg__image"></div>
+
+    <header class="section__container header__container" data-section>
+
+        <div class="header__content">
+            <span class="bg__blur"></span>
+            <span class="bg__blur header__blur"></span>
+
+            <h4>DEFINE YOUR FITNESS</h4>
+
+            <h1><span>MAKE </span>YOUR BODY SHAPE</h1>
+
+            <p>
+                Embark on a journey to define your ideal body shape with our
+                tailored fitness plans. A vast library of targeted exercises and
+                dynamic routines, helping you achieve healthy lasting results.
+            </p>
+
+            <a href="#workouts"><button class="btn">Get Started</button></a>
+        </div>
+
+        <div class="header__image">
+            <img src="/assets/header.png" alt="man standing with dumbells in hand">
+        </div>
+
+    </header>
+
+    <section class="section__container workouts__container" id="workouts" data-section>
+        <div class="container">
+
+            <ul class="grid__list">
+                <li>
+                    <div class="card">
+
+                        <div class="card__icon">
+                            <img src="/assets/bench_press.svg" width="60" height="60" loading="lazy"
+                                alt="Upper Body Workouts">
+                        </div>
+
+                        <h3 class="h3">
+                            <a href="#" class="card__title">Upper Body Workouts</a>
+                        </h3 class="h3">
+
+                        <p class="card__text">
+                            Sculpt your body with our transformative upper body
+                            workouts and unlock your full potential.
+                        </p>
+
+                        <a href="/Upper_Body_Workouts/index-upperbody.html" class="btn btn__secondary">
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </a>
+
+                    </div>
+                </li>
+
+                <li>
+                    <div class="card" id="second_card">
+
+                        <div class="card__icon">
+                            <img src="/assets/deadlift.svg" width="60" height="60" loading="lazy"
+                                alt="Lower Body Workouts">
+                        </div>
+
+                        <h3 class="h3">
+                            <a href="#" class="card__title">Lower Body Workouts</a>
+                        </h3 class="h3">
+
+                        <p class="card__text">
+                            Designed to strengthen muscles and elevate your
+                            fitness experience with a Diverse range of workouts!
+                        </p>
+
+                        <a href="/Lower_Body-Workouts/index-lowerbody.html" class="btn btn-secondary">
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </a>
+
+                    </div>
+                </li>
+
+                <li>
+                    <div class="card">
+
+                        <div class="card__icon">
+                            <img src="/assets/stretching.svg" width="60" height="60" loading="lazy"
+                                alt="Person Stretching">
+                        </div>
+
+                        <h3 class="h3">
+                            <a href="#" class="card__title">Stretching</a>
+                        </h3 class="h3">
+
+                        <p class="card__text">
+                            Boost flexibility and prevent injuries with our
+                            effective stretching routines before starting our
+                            workouts.
+                        </p>
+
+                        <a href="/Stretching/index-stretching.html" class="btn btn__secondary">
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </a>
+
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="section__container nutrition__container" id="nutrition" data-section>
+        <div class="nutrition__image">
+            <img src="/assets/about2.jpg" alt="Runner tying his laces">
+        </div>
+        <div class="nutrition__content">
+            <h2 class="section__header">Nutrition
+                <ion-icon name="leaf"></ion-icon>
+            </h2>
+            <p>
+                Fuelling your body with a well-rounded diet and eating balanced
+                meals that provide ample nutrition is important for maximising
+                your fitness potential. Making sure to include lean proteins,
+                whole grains and lots of nutritious fruit and veg. If you want
+                to see results, maintaining a consistent diet is very important,
+                especially when following our fitness routines. We post daily
+                nourishing meal plans that you can follow for quick and easy
+                dinners.
+            </p>
+            <button class="btn">Learn More</button>
+        </div>
+    </section>
+
+    <section class="section__container video_container" id="video" data-section>
+        <div class="container">
+            <h1 id="tagline">Fit for Life</h1>
+            <div class="video-card" id="videoCard">
+
+                <video width="900px" height="500px" id="fitnessVideo" poster="/assets/video_banner2.jpg" controls>
+                    <source src="/assets/fitness.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <button class="play-btn" id="playButton" aria-label="play video">
+                    <ion-icon name="play" aria-hidden="true"></ion-icon>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container about__container" id="about" data-section>
+        <h1>Our Team:</h1>
+        <ul>
+            <li>Tanvir Hossain Parvin</li>
+            <li>Manna Udin</li>
+            <li>Areji Khan</li>
+            <li>Humyra Noshin</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__logo">
+                <a href="#"><img src="/assets/footerlogo.png" alt="HowToFitness Footer Logo"></a>
+            </div>
+            <div class="footer__links">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer__social">
+                <a href="#" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+        </div>
+        <p class="footer__copyright">&copy; 2023 HowToFitness. All rights reserved.</p>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script src="script-home.js"></script>
+
+</body>
+
+</html>
